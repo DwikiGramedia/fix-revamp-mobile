@@ -173,9 +173,9 @@ class _SignInUIFormState extends State<SignInUIForm> {
   void initState() {
     super.initState();
     initPlatformSite();
-    context.read<UserCubit>().getOpenRegistration();
-    emailController.addListener(onListen);
-    passwordFocusNode.addListener(passwordFocusNodeListener);
+    // // context.read<UserCubit>().getOpenRegistration();
+    // emailController.addListener(onListen);
+    // passwordFocusNode.addListener(passwordFocusNodeListener);
     getLoginInfoCache();
   }
 

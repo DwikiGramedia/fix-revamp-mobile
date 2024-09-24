@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>318396147593-eejf2kubjfpafgupi7o7n3ep9bikl0am.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.318396147593-eejf2kubjfpafgupi7o7n3ep9bikl0am</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>318396147593-0f049n3h3a5gae3itje5jnnf616t5o4l.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4D28rtk-Ab4RoSHlH_9-zd0ZQ3LDG6A8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>318396147593</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.apps-foundry.eperpuswl.id.kemendikbud</string>
+	<key>PROJECT_ID</key>
+	<string>eperpusdikbud</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eperpusdikbud.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:318396147593:ios:9f5650b1b456af80ac6358</string>
+	<key>DATABASE_URL</key>
+	<string>https://eperpusdikbud.firebaseio.com</string>
+</dict>
+</plist>
