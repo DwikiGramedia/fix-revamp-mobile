@@ -1,0 +1,319 @@
+{
+  "project_info": {
+    "project_number": "318396147593",
+    "firebase_url": "https://eperpusdikbud.firebaseio.com",
+    "project_id": "eperpusdikbud",
+    "storage_bucket": "eperpusdikbud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318396147593:android:fc6707801d8ef3f4ac6358",
+        "android_client_info": {
+          "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318396147593-ehq1l383vm4qbpb0l0pu03e5rvq7n36o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud",
+            "certificate_hash": "cbb0c734f648d234a1553e93d999e9d40c0dae17"
+          }
+        },
+        {
+          "client_id": "318396147593-em0d8iunfn252f2sqpl0343ruuv5qc15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud",
+            "certificate_hash": "ed0c86daba7ce01a498658cbee044bcc70d1f5bf"
+          }
+        },
+        {
+          "client_id": "318396147593-hk2tcru1rcsbuge70fcjbu0p6i7k8tor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud",
+            "certificate_hash": "5de8e1384f351dbd47eff18880e4c0f42deca828"
+          }
+        },
+        {
+          "client_id": "318396147593-lorhnfguqu28b3s61an8t308tav6a9ok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud",
+            "certificate_hash": "d624c790ebf216e873efde353073bbf6c5e2db94"
+          }
+        },
+        {
+          "client_id": "318396147593-nhuvqp4qd4385p4dfe1mdo7c0v5t16vl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud",
+            "certificate_hash": "a423af616236d9d1b5233808cdaf53d1225141f2"
+          }
+        },
+        {
+          "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEWZjvbIuS2RHRH11z0xsxt15wmRPNGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318396147593-eejf2kubjfpafgupi7o7n3ep9bikl0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apps-foundry.eperpuswl.id.kemendikbud"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318396147593:android:0109d3b764df0716ac6358",
+        "android_client_info": {
+          "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318396147593-0f049n3h3a5gae3itje5jnnf616t5o4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.dev",
+            "certificate_hash": "a423af616236d9d1b5233808cdaf53d1225141f2"
+          }
+        },
+        {
+          "client_id": "318396147593-6ji3l20r7oo4krb9vhhso9414pahs37c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.dev",
+            "certificate_hash": "cbb0c734f648d234a1553e93d999e9d40c0dae17"
+          }
+        },
+        {
+          "client_id": "318396147593-g7s226pd9js8nbboksjtq4tmind3heg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.dev",
+            "certificate_hash": "ed0c86daba7ce01a498658cbee044bcc70d1f5bf"
+          }
+        },
+        {
+          "client_id": "318396147593-jia99ogm4mgpj9j9r2o8gfeo5uqs700l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.dev",
+            "certificate_hash": "d624c790ebf216e873efde353073bbf6c5e2db94"
+          }
+        },
+        {
+          "client_id": "318396147593-vqdbvj74lobm48v276rpql9299fk36t5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.dev",
+            "certificate_hash": "5de8e1384f351dbd47eff18880e4c0f42deca828"
+          }
+        },
+        {
+          "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEWZjvbIuS2RHRH11z0xsxt15wmRPNGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318396147593-eejf2kubjfpafgupi7o7n3ep9bikl0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apps-foundry.eperpuswl.id.kemendikbud"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318396147593:android:3dafa0155b08dabfac6358",
+        "android_client_info": {
+          "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.eperpusdikbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEWZjvbIuS2RHRH11z0xsxt15wmRPNGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318396147593-eejf2kubjfpafgupi7o7n3ep9bikl0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apps-foundry.eperpuswl.id.kemendikbud"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318396147593:android:718223e37a635efdac6358",
+        "android_client_info": {
+          "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318396147593-a0g3qtul4i83e7pf3156dr4k9sr9d7bp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri",
+            "certificate_hash": "a423af616236d9d1b5233808cdaf53d1225141f2"
+          }
+        },
+        {
+          "client_id": "318396147593-e3582ql6fb2usgdtkeuhl5ang4823bs6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri",
+            "certificate_hash": "fd1f9a7dd27db8155aba3c79889916a5200a240c"
+          }
+        },
+        {
+          "client_id": "318396147593-ut6to66couukbn191mibd8dl4ttnb1bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri",
+            "certificate_hash": "de90eefa4dc412f8050fe207b79a834c00bac72b"
+          }
+        },
+        {
+          "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEWZjvbIuS2RHRH11z0xsxt15wmRPNGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318396147593-eejf2kubjfpafgupi7o7n3ep9bikl0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apps-foundry.eperpuswl.id.kemendikbud"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318396147593:android:1ed585cac1a81475ac6358",
+        "android_client_info": {
+          "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318396147593-kc3k8beo2i2f6lt94nrsd09ba7qf9deo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri.dev",
+            "certificate_hash": "de90eefa4dc412f8050fe207b79a834c00bac72b"
+          }
+        },
+        {
+          "client_id": "318396147593-kl6e2p6u6rf2fqi5svg1hhh72emhheam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri.dev",
+            "certificate_hash": "a423af616236d9d1b5233808cdaf53d1225141f2"
+          }
+        },
+        {
+          "client_id": "318396147593-pftoge550t5rpoli20epe43p3plnnljn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsfoundry.eperpuswl.id.kemendikbud.ri.dev",
+            "certificate_hash": "fd1f9a7dd27db8155aba3c79889916a5200a240c"
+          }
+        },
+        {
+          "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEWZjvbIuS2RHRH11z0xsxt15wmRPNGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318396147593-uoa7gms7cq3u8f816fa9oad79ttnoqs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318396147593-eejf2kubjfpafgupi7o7n3ep9bikl0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.apps-foundry.eperpuswl.id.kemendikbud"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

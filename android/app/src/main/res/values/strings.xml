@@ -1,0 +1,39 @@
+<resources>
+<!--    Enable app_name for multiple app name locale-->
+<!--    <string name="app_name">"Perpus-El PMK"</string>-->
+    <string name="title_activity_main">"Colibrio Reader Demo"</string>
+    <string name="publication_loading_error_with_reason">Error loading publication: %s</string>
+    <string name="font_size">Font size scale factor: %.1f</string>
+    <string name="line_height">Line height scale factor: %.1f</string>
+    <string name="vertical_margin_label">Vertical margin: %d</string>
+    <string name="horizontal_margin_label">Horizontal margin: %d</string>
+    <string name="view_options">View options</string>
+    <string name="search_options">Search options</string>
+    <string name="table_of_content">Table of Content</string>
+    <string name="select_epub">Select an EPUB</string>
+    <string name="main_info_label">Press the action button to open a local file or select one from the list</string>
+    <string name="catalogue">Catalogue</string>
+
+    <string name="full_path">full-path</string>
+    <string name="htmlBodyTableOpen">&lt;html&gt;&lt;body&gt;&lt;table&gt;</string>
+    <string name="titlesMeta">&lt;tr&gt;&lt;td&gt;Titles:&lt;/td&gt;</string>
+    <string name="td_tag"><![CDATA[<td>%s</td></tr>]]></string>
+    <string name="tr_tag"><![CDATA[<tr><td></td><td>%s</td></tr>]]></string>
+    <string name="authorsMeta">&lt;tr&gt;&lt;td&gt;Authors:&lt;/td&gt;</string>
+    <string name="languageMeta">&lt;tr&gt;&lt;td&gt;Language:&lt;/td&gt;&lt;td&gt;</string>
+    <string name="publishersMeta">&lt;tr&gt;&lt;td&gt;Publishers:&lt;/td&gt;</string>
+    <string name="contributorsMeta">&lt;tr&gt;&lt;td&gt;Contributors:&lt;/td&gt;</string>
+    <string name="typesMeta">&lt;tr&gt;&lt;td&gt;Types:&lt;/td&gt;</string>
+    <string name="descriptionsMeta">&lt;tr&gt;&lt;td&gt;Descriptions:&lt;/td&gt;</string>
+    <string name="rightsMeta">&lt;tr&gt;&lt;td&gt;Rights:&lt;/td&gt;</string>
+    <string name="tablebodyhtmlClose">&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="tocReference">&lt;tr&gt;&lt;td&gt;Table of Contents:&lt;/td&gt;</string>
+    <string name="change_Font">Change Font</string>
+    <string name="change_Font_Color">Font Color:</string>
+    <string name="changeStyle">Change Style</string>
+    <string name="error_goToPage">goToPage error:</string>
+    <string name="search">Search</string>
+    <string name="bookmark_button">Bookmark Button</string>
+    <string name="bookmark_list">Bookmark List</string>
+
+</resources>
