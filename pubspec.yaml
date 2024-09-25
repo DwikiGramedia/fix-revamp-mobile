@@ -120,7 +120,7 @@ flutter:
     - assets/icon_assets/
 
     #CLIENT_CONFIG_ASSET_START
-    - assets/client/kemendikbud/
+    - assets/client/lexa/
     #CLIENT_CONFIG_ASSET_END
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

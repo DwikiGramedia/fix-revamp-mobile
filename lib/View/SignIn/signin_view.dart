@@ -173,9 +173,9 @@ class _SignInUIFormState extends State<SignInUIForm> {
   void initState() {
     super.initState();
     initPlatformSite();
-    // // context.read<UserCubit>().getOpenRegistration();
-    // emailController.addListener(onListen);
-    // passwordFocusNode.addListener(passwordFocusNodeListener);
+    context.read<UserCubit>().getOpenRegistration();
+    emailController.addListener(onListen);
+    passwordFocusNode.addListener(passwordFocusNodeListener);
     getLoginInfoCache();
   }
 
@@ -415,7 +415,7 @@ class _SignInUIFormState extends State<SignInUIForm> {
           }
           if (state is IsUserRegistrationShown) {
             setState(() {
-              isOpenRegis = state.content.isOpenRegis;
+              isOpenRegis = state.content.isActive;
               setIsOpenRegis(isOpenRegis);
             });
           }
