@@ -1,0 +1,11 @@
+//
+//  ColibrioConfig.xcconfig
+//  Runner
+//
+//  Created by Gramedia on 29/08/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+API_KEY = fe37b3b7-a440-49ef-a57b-f14d10ecadc6
+API_SECRET = 5n5J5LbGlusDxnjP5fZDCcZV
