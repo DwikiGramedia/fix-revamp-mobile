@@ -135,6 +135,7 @@ const int organizationIdUnikaSTPLS = 2624341;
 const int catalogIdUnikaSTPLS = 866;
 
 const int organizationUrsulaBSD = 2202720;
+const int catalogIdUrsulaBSD = 485;
 
 
 const int organizationIdAtmalib = 2710559;

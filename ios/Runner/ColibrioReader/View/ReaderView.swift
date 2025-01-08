@@ -752,7 +752,7 @@ final class ReaderEbookViewController: UIViewController, FloatingPanelController
                     }
                     self.pageInt = Int(self.book.lastPageIndex)
                     
-                    self.labelOfPages.text = self.book.fileType  == "pdf" ? "Page \(Int(self.book.lastPageIndex)) of \(Int(self.book.totalPage)) (\(Int(((Double(self.book.lastPageIndex ) / Double(self.book.totalPage)) * 100).roundToDecimal(0)))%)" : "\(Int(((Double(self.book.lastPageIndex ) / Double(self.book.totalPage)) * 100).roundToDecimal(0)))%"
+                    self.labelOfPages.text = "Page \(Int(self.book.lastPageIndex)) of \(Int(self.book.totalPage)) (\(Int(((Double(self.book.lastPageIndex ) / Double(self.book.totalPage)) * 100).roundToDecimal(0)))%)"
 
                 case .failure(let error):
                     print(error)

@@ -180,9 +180,9 @@ class _SignUpPageState extends State<SignUpPage> {
   }
 
   onSignUpButtonClicked(
-      BuildContext context,
-      AppLocalizations localization,
-      ) async {
+    BuildContext context,
+    AppLocalizations localization,
+  ) async {
     try {
       emailFocusNode.unfocus();
       usernameFocusNode.unfocus();
@@ -195,19 +195,19 @@ class _SignUpPageState extends State<SignUpPage> {
       suffixFocusNode.unfocus();
       UIHelper.showLoadingDialog(context, localization.uiHelperSignUp);
       await context.read<RegisterCubit>().registerAccount(
-        context: context,
-        username: usernameController.text,
-        birthdate: datetime,
-        gender: selectedGender,
-        email: emailController.text,
-        password: passwordController.text,
-        deviceModel: _deviceData['model'],
-        oSVersion: Platform.isIOS
-            ? _deviceData['systemVersion'] ?? ""
-            : _deviceData['version.codename'] ?? "",
-        firstName: firstNameController.text,
-        lastName: lastNameController.text,
-      );
+            context: context,
+            username: usernameController.text,
+            birthdate: datetime,
+            gender: selectedGender,
+            email: emailController.text,
+            password: passwordController.text,
+            deviceModel: _deviceData['model'],
+            oSVersion: Platform.isIOS
+                ? _deviceData['systemVersion'] ?? ""
+                : _deviceData['version.codename'] ?? "",
+            firstName: firstNameController.text,
+            lastName: lastNameController.text,
+          );
     } catch (e) {
       debugPrint("Error: $e");
     }
@@ -259,15 +259,15 @@ class _SignUpPageState extends State<SignUpPage> {
           prefix: Text(prefixText!),
           prefixIcon: showPrefixIcon!
               ? Container(
-            margin:
-            const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-            height: 20,
-            width: 20,
-            child: Image.asset(
-              prefixImage,
-              fit: BoxFit.contain,
-            ),
-          )
+                  margin:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  height: 20,
+                  width: 20,
+                  child: Image.asset(
+                    prefixImage,
+                    fit: BoxFit.contain,
+                  ),
+                )
               : null,
           suffixIcon: suffixWidget,
           border: OutlineInputBorder(
@@ -300,6 +300,9 @@ class _SignUpPageState extends State<SignUpPage> {
                 if (value == null || value.isEmpty) {
                   return localization.signUpFirstNameValidator;
                 }
+                if (value == " ") {
+                  return localization.signUpFirstNameValidatorSpace;
+                }
                 return null;
               },
               hintText: localization.signUpFirstNameHint,
@@ -312,8 +315,11 @@ class _SignUpPageState extends State<SignUpPage> {
               controller: lastNameController,
               labelText: localization.signUpLastNameLabel,
               validator: (value) {
-                if (value == null || value.isEmpty) {
+                if (value == null) {
                   return localization.signUpLastNameValidator;
+                }
+                if (value == " ") {
+                  return localization.signUpLastNameValidatorSpace;
                 }
                 return null;
               },
@@ -329,10 +335,12 @@ class _SignUpPageState extends State<SignUpPage> {
               keyboardType: TextInputType.emailAddress,
               validator: (value) {
                 if (value == null ||
-                    value.isEmpty ||
                     !value.contains("@") ||
                     !value.contains(".")) {
                   return localization.signUpEmailValidator;
+                }
+                if (value.contains(" ") || value == " ") {
+                  return localization.signUpEmailValidatorSpace;
                 }
                 return null;
               },
@@ -395,13 +403,13 @@ class _SignUpPageState extends State<SignUpPage> {
               onTap: Platform.isIOS
                   ? () => buildCupertinoDatePicker(context, localization)
                   : () async {
-                DateTime? pickedDate = await showDatePicker(
-                    context: context,
-                    initialDate: DateTime.now(), //get today's date
-                    firstDate: DateTime(1900),
-                    lastDate: DateTime(2050));
-                onDatePickerChanged(pickedDate!);
-              },
+                      DateTime? pickedDate = await showDatePicker(
+                          context: context,
+                          initialDate: DateTime.now(), //get today's date
+                          firstDate: DateTime(1900),
+                          lastDate: DateTime(2050));
+                      onDatePickerChanged(pickedDate!);
+                    },
               // onTap: () => buildPickDateBottomSheet(context, localization),
               child: buildTextField(
                 textFormFieldKey: dateFormFieldKey,
@@ -435,7 +443,7 @@ class _SignUpPageState extends State<SignUpPage> {
                             value: 1,
                             groupValue: selectedGender,
                             onChanged: (value) => setState(
-                                  () => selectedGender = value!,
+                              () => selectedGender = value!,
                             ),
                           ),
                           Expanded(
@@ -465,7 +473,7 @@ class _SignUpPageState extends State<SignUpPage> {
                             value: 2,
                             groupValue: selectedGender,
                             onChanged: (value) => setState(
-                                  () => selectedGender = value!,
+                              () => selectedGender = value!,
                             ),
                           ),
                           Expanded(
@@ -535,10 +543,10 @@ class _SignUpPageState extends State<SignUpPage> {
         return TextButton(
           onPressed: isButtonEnable()
               ? () {
-            if (formKey.currentState!.validate()) {
-              onSignUpButtonClicked(context, localization);
-            }
-          }
+                  if (formKey.currentState!.validate()) {
+                    onSignUpButtonClicked(context, localization);
+                  }
+                }
               : null,
           style: TextButton.styleFrom(
             shape: const RoundedRectangleBorder(
@@ -569,7 +577,7 @@ class _SignUpPageState extends State<SignUpPage> {
             Navigator.pushNamedAndRemoveUntil(
               context,
               SignInUIForm.routeName,
-                  (Route<dynamic> route) => false,
+              (Route<dynamic> route) => false,
             );
           });
         }
@@ -717,9 +725,9 @@ class _SignUpPageState extends State<SignUpPage> {
   }
 
   Future<dynamic> buildCupertinoDatePicker(
-      BuildContext context,
-      AppLocalizations localization,
-      ) {
+    BuildContext context,
+    AppLocalizations localization,
+  ) {
     return showModalBottomSheet(
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.only(
@@ -778,9 +786,9 @@ class _SignUpPageState extends State<SignUpPage> {
       child: Scaffold(
         backgroundColor: const Color(0xFFFAFAFA),
         body: BlocBuilder<RegisterCubit, RegisterState>(builder: (
-            context,
-            state,
-            ) {
+          context,
+          state,
+        ) {
           return SafeArea(
             child: SingleChildScrollView(
               child: Column(

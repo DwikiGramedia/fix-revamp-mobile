@@ -77,7 +77,7 @@
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Allow using microphone</string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>Your privacy is Our concern. You may be asked to provide your personal information anytime you are in contact with us or our affiliated company. We want to ensure that every information that We collect is all about Our effort to give information, content, and experiences that matter most to You. We are committed to protecting the privacy of the Customers, including You, online media visitors, vendors, partners, and many other related stakeholders.</string>
+	<string>Your data will be used to give report of reading to you.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Nunito-Regular.ttf</string>

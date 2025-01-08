@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/04November2024/EPerpusdikbud/EPerpusdikbud.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/04November2024/EPerpusdikbud/EPerpusdikbud.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/04November2024/EPerpusdikbud/EPerpusdikbud.png</string>
+	</dict>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>HNKY6S7CUD</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>

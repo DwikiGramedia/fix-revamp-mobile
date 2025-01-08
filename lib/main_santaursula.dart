@@ -23,31 +23,29 @@ import 'package:revamp_eperpus_mobile/Helpers/api_constant.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initServices();
-  runApp(const MyApp());
+  runApp(MyApp());
 }
-// testingdikbud5@yopmail.com
+
 Future<void> initServices() async {
   await Firebase.initializeApp();
   FlavorConfig(
-    flavor: Flavor.kemendikbud,
+    flavor: Flavor.santaursulajakarta,
     values: FlavorValues(
       baseUrl: ApiConstant.scoopCoreAPI,
-      baseOrganizationId: organizationUrsulaBSD,
-      baseCatalogId: catalogIdUrsulaBSD,
-      clientAssets: "assets/client/ursula/",
-      clientId: Platform.isIOS ? 253 : 252,
-      watermark: "GSUBSD",
-      userAgent: Platform.isIOS ? "eperpus_santa_ursula_bsd_ios" : "eperpus_santa_ursula_bsd_android",
-      appName: "elib sanurbsd",
-      appConfigName: "ePerpus Santa Ursula BSD",
-      aboutUsID: "Perpustakaan digital Sekolah Santa Ursula BSD",
-      aboutUsEN: "School digital library Santa Ursula BSD",
-      playstore: "https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/ursula_bsd/ursula_bsd.apk",
-      appstore: "itms-services://?action=download-manifest&url=https://statics.eperpus.com/3.0.4/ursula_bsd/manifest.plist",
-      isRegisterShown: true,
-      openRegisPrefix: "GSUBSD",
+      baseOrganizationId: organizationIdSantaUrsulaJakarta,
+      baseCatalogId: catalogIdSantaUrsulaJakarta,
+      clientAssets: "assets/client/santaursulajakarta/",
+      clientId: Platform.isIOS ? 239 : 238,
+      watermark: "GSTURSULAJKT",
+      userAgent: Platform.isIOS ? "stursula elib ios" : "stursula elib android",
+      appName: "StUrsula eLib",
+      appConfigName: "StUrsula eLib",
+      aboutUsID: "Media pencarian dan peminjaman koleksi bahan pustaka digital Perpustakaan TB-TK-SD-SMP-SMA Santa Ursula Jakarta.",
+      aboutUsEN: "A media for browsing and borrowing digital library collections from Santa Ursula Jakarta Kindergarten-Elementary-Junior High-Senior High",
+      playstore: "",
+      appstore: "",
     ),
-    name: 'EPerpusdikbud',
+    name: "StUrsula eLib",
   );
   ApiClient(values: FlavorConfig.instance.values);
 }
