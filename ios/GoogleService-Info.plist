@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>904536684742-ebrs4dat38v4bvq5d6n70ld6kmvdhjpa.apps.googleusercontent.com</string>
+	<string>419699057529-juemgfh0mhbu76bt1f8qbd82gg2ed3v6.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.904536684742-ebrs4dat38v4bvq5d6n70ld6kmvdhjpa</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>904536684742-06a147gquj23593te0cd7oco6bgl8dan.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.419699057529-juemgfh0mhbu76bt1f8qbd82gg2ed3v6</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD-CzIQTgpWTsu2LPHtf0eqFMoRSompUL0</string>
+	<string>AIzaSyDY6QwE98E_BKu7bd8dWK9ncH5HWORXP-o</string>
 	<key>GCM_SENDER_ID</key>
-	<string>904536684742</string>
+	<string>419699057529</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.appsfoundry.eperpuswl.id.elib-sanurbsd</string>
+	<string>com.apps-foundry.eperpuswl.id.pycdigilib</string>
 	<key>PROJECT_ID</key>
-	<string>santa-ursula-bsd</string>
+	<string>purnomo-yusgiantoro-center</string>
 	<key>STORAGE_BUCKET</key>
-	<string>santa-ursula-bsd.firebasestorage.app</string>
+	<string>purnomo-yusgiantoro-center.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:904536684742:ios:3c25c0ad81f473ccf33fc7</string>
+	<string>1:419699057529:ios:b3cda0625c81088b5ec5a8</string>
 </dict>
 </plist>

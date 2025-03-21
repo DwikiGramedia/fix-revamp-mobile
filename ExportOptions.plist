@@ -9,11 +9,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/04November2024/EPerpusdikbud/EPerpusdikbud.ipa</string>
+		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/08Januari2025/pycdigilib/pycdigilib.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/04November2024/EPerpusdikbud/EPerpusdikbud.png</string>
+		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/08Januari2025/pycdigilib/pycdigilib.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/04November2024/EPerpusdikbud/EPerpusdikbud.png</string>
+		<string>https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/08Januari2025/pycdigilib/pycdigilib.png</string>
 	</dict>
 	<key>method</key>
 	<string>enterprise</string>

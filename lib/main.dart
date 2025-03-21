@@ -25,6 +25,7 @@ void main() async {
   await initServices();
   runApp(const MyApp());
 }
+
 // testingdikbud5@yopmail.com
 Future<void> initServices() async {
   await Firebase.initializeApp();
@@ -32,20 +33,23 @@ Future<void> initServices() async {
     flavor: Flavor.kemendikbud,
     values: FlavorValues(
       baseUrl: ApiConstant.scoopCoreAPI,
-      baseOrganizationId: organizationUrsulaBSD,
-      baseCatalogId: catalogIdUrsulaBSD,
-      clientAssets: "assets/client/ursula/",
-      clientId: Platform.isIOS ? 253 : 252,
-      watermark: "GSUBSD",
-      userAgent: Platform.isIOS ? "eperpus_santa_ursula_bsd_ios" : "eperpus_santa_ursula_bsd_android",
-      appName: "elib sanurbsd",
-      appConfigName: "ePerpus Santa Ursula BSD",
-      aboutUsID: "Perpustakaan digital Sekolah Santa Ursula BSD",
-      aboutUsEN: "School digital library Santa Ursula BSD",
-      playstore: "https://eperpus-unduh.s3.ap-southeast-1.amazonaws.com/3.0.4/ursula_bsd/ursula_bsd.apk",
-      appstore: "itms-services://?action=download-manifest&url=https://statics.eperpus.com/3.0.4/ursula_bsd/manifest.plist",
+      baseOrganizationId: organizationIdKemendikbud,
+      baseCatalogId: catalogIdKemendikbud,
+      clientAssets: "assets/client/kemendikbud/",
+      clientId: Platform.isIOS ? 204 : 203,
+      watermark: "EPERPUSDIKBUD",
+      userAgent: Platform.isIOS ? "eperpusdikbud ios" : "eperpusdikbud android",
+      appName: "EPerpusdikbud",
+      appConfigName: "EPerpusdikbud",
+      aboutUsID:
+      "EPerpusdikbud, aplikasi perpustakaan digital milik Kemendikbud RI. Perpustakaan di ujung jarimu. Dimanapun. Kapanpun.",
+      aboutUsEN:
+      "EPerpusdikbud, digital library application by Kemendikbud RI. A library at your fingertips. Anywhere. Anytime.",
+      playstore:
+      "https://play.google.com/store/apps/details?id=com.appsfoundry.eperpuswl.id.kemendikbud.eperpusdikbud",
+      appstore: "",
       isRegisterShown: true,
-      openRegisPrefix: "GSUBSD",
+      openRegisPrefix: "dikbud",
     ),
     name: 'EPerpusdikbud',
   );

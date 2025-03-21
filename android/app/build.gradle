@@ -129,6 +129,14 @@ android {
             resValue "string", "deeplink_scheme", "eperpusdikbud.open"
             resValue "string", "host", "https"
         }
+
+        pyc {
+            dimension "default"
+            applicationIdSuffix ".eperpuswl.id.pycdigilib"
+            resValue "string", "app_name", "PYC DigLib"
+            resValue "string", "deeplink_scheme", "pycdigilib.open"
+            resValue "string", "host", "https"
+        }
     }
 }
 
