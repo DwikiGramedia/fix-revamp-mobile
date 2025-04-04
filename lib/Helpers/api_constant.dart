@@ -17,7 +17,7 @@ class ApiConstant {
   static String stagingAPI    = 'https://dev.apps-foundry.com/scoopcor/api/v1/';
   static String preprodAPI    = 'https://preprod-scoopadm.apps-foundry.com/scoopcor/api/v1/';
   static String revampStagingAPI = "https://dev-api.eperpus.com/";
-  static String revampProdAPI = "https://api.eperpus.com/";
+  static String revampProdAPI = "https://api-smartlib.gramedia.com/";
 
   static String getOrganizationSharedCatalogProducts(
     String organizationId,
