@@ -1,0 +1,24 @@
+{
+  "originHash" : "9f6aad09d7ea8318c08b6d99ccf80f9f66f775928c48b2c59996c759c0e89ff4",
+  "pins" : [
+    {
+      "identity" : "colibrio-pkg-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://bitbucket.org/colibrio/colibrio-pkg-spm.git",
+      "state" : {
+        "revision" : "b64d37e313c69a6bc427daa2bbd2aacbb4ee9704",
+        "version" : "3.9.0"
+      }
+    },
+    {
+      "identity" : "toast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hengyu/Toast.git",
+      "state" : {
+        "revision" : "980bcb085bbed77b8035f14e07611e66e739134a",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -11,6 +11,8 @@
 		1B451DC43B3AEB1E3160BD7C /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6088EF7941B4028F8AFB42 /* Pods_Runner.framework */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		3E341A3E2DA35AF8005010D2 /* ColibrioReader in Frameworks */ = {isa = PBXBuildFile; productRef = 3E341A3D2DA35AF8005010D2 /* ColibrioReader */; };
+		3E341A402DA35C47005010D2 /* Eperpus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CB07AC2CA3FAD200163BF8 /* Eperpus.xcdatamodeld */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
@@ -61,7 +63,6 @@
 		A8CB08002CA3FAD200163BF8 /* Literata.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8CB07A72CA3FAD200163BF8 /* Literata.ttf */; };
 		A8CB08012CA3FAD200163BF8 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8CB07A92CA3FAD200163BF8 /* Merriweather-Regular.ttf */; };
 		A8CB08022CA3FAD200163BF8 /* DummyReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB07AB2CA3FAD200163BF8 /* DummyReader.swift */; };
-		A8CB08032CA3FAD200163BF8 /* Eperpus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CB07AC2CA3FAD200163BF8 /* Eperpus.xcdatamodeld */; };
 		A8CB08042CA3FAD200163BF8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB07AD2CA3FAD200163BF8 /* NetworkManager.swift */; };
 		A8CB08052CA3FAD200163BF8 /* Nyoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB07AE2CA3FAD200163BF8 /* Nyoba.swift */; };
 		A8CB08062CA3FAD200163BF8 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8CB07B02CA3FAD200163BF8 /* Nunito-Bold.ttf */; };
@@ -90,7 +91,6 @@
 		A8CB081E2CA402A400163BF8 /* eperpuslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB081D2CA402A400163BF8 /* eperpuslogo.png */; };
 		A8CB08262CA4115100163BF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8CB08252CA4115100163BF8 /* GoogleService-Info.plist */; };
 		A8CB08282CA4120100163BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CB08272CA4120100163BF8 /* Assets.xcassets */; };
-		A8EEF6492CBE222C004A4114 /* ColibrioReader in Frameworks */ = {isa = PBXBuildFile; productRef = A8EEF6482CBE222C004A4114 /* ColibrioReader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,7 +219,7 @@
 			files = (
 				A806FB3C2CE5E52C00DEAFB5 /* Toast in Frameworks */,
 				1B451DC43B3AEB1E3160BD7C /* Pods_Runner.framework in Frameworks */,
-				A8EEF6492CBE222C004A4114 /* ColibrioReader in Frameworks */,
+				3E341A3E2DA35AF8005010D2 /* ColibrioReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,8 +644,8 @@
 			);
 			name = Runner;
 			packageProductDependencies = (
-				A8EEF6482CBE222C004A4114 /* ColibrioReader */,
 				A806FB3B2CE5E52C00DEAFB5 /* Toast */,
+				3E341A3D2DA35AF8005010D2 /* ColibrioReader */,
 			);
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
@@ -681,8 +681,8 @@
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
 			packageReferences = (
-				A8EEF6472CBE222C004A4114 /* XCRemoteSwiftPackageReference "colibrio-pkg-spm" */,
 				A806FB3A2CE5E52C00DEAFB5 /* XCRemoteSwiftPackageReference "Toast" */,
+				3E341A3C2DA35AF8005010D2 /* XCRemoteSwiftPackageReference "colibrio-pkg-spm" */,
 			);
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
@@ -821,6 +821,7 @@
 				A8CB07D92CA3FAD200163BF8 /* Extension + Alert.swift in Sources */,
 				A8CB08182CA3FAD200163BF8 /* PDFReaderInteractor.swift in Sources */,
 				A8CB07D82CA3FAD200163BF8 /* Extension  + Bundle.swift in Sources */,
+				3E341A402DA35C47005010D2 /* Eperpus.xcdatamodeld in Sources */,
 				A8CB07E52CA3FAD200163BF8 /* Book+CoreDataProperties.swift in Sources */,
 				A8CB07F52CA3FAD200163BF8 /* ReaderPresenter.swift in Sources */,
 				A8CB08102CA3FAD200163BF8 /* CoredataBrain.swift in Sources */,
@@ -829,7 +830,6 @@
 				A8CB08132CA3FAD200163BF8 /* Extension + Textfield.swift in Sources */,
 				A8CB07E62CA3FAD200163BF8 /* Bookmark+CoreDataClass.swift in Sources */,
 				A8CB07FA2CA3FAD200163BF8 /* ReaderView.swift in Sources */,
-				A8CB08032CA3FAD200163BF8 /* Eperpus.xcdatamodeld in Sources */,
 				A8CB07F22CA3FAD200163BF8 /* ReaderConfigurator.swift in Sources */,
 				A8CB07DC2CA3FAD200163BF8 /* Extension + UIColor.swift in Sources */,
 				A8CB07FB2CA3FAD200163BF8 /* SearchViewController.swift in Sources */,
@@ -1229,6 +1229,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3E341A3C2DA35AF8005010D2 /* XCRemoteSwiftPackageReference "colibrio-pkg-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://bitbucket.org/colibrio/colibrio-pkg-spm";
+			requirement = {
+				kind = exactVersion;
+				version = 3.10.0;
+			};
+		};
 		A806FB3A2CE5E52C00DEAFB5 /* XCRemoteSwiftPackageReference "Toast" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hengyu/Toast.git";
@@ -1237,26 +1245,18 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		A8EEF6472CBE222C004A4114 /* XCRemoteSwiftPackageReference "colibrio-pkg-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://bitbucket.org/colibrio/colibrio-pkg-spm.git";
-			requirement = {
-				kind = exactVersion;
-				version = 3.9.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3E341A3D2DA35AF8005010D2 /* ColibrioReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E341A3C2DA35AF8005010D2 /* XCRemoteSwiftPackageReference "colibrio-pkg-spm" */;
+			productName = ColibrioReader;
+		};
 		A806FB3B2CE5E52C00DEAFB5 /* Toast */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A806FB3A2CE5E52C00DEAFB5 /* XCRemoteSwiftPackageReference "Toast" */;
 			productName = Toast;
-		};
-		A8EEF6482CBE222C004A4114 /* ColibrioReader */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A8EEF6472CBE222C004A4114 /* XCRemoteSwiftPackageReference "colibrio-pkg-spm" */;
-			productName = ColibrioReader;
 		};
 /* End XCSwiftPackageProductDependency section */
 
