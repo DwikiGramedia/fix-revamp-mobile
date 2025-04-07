@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,7 @@
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		3E341A3E2DA35AF8005010D2 /* ColibrioReader in Frameworks */ = {isa = PBXBuildFile; productRef = 3E341A3D2DA35AF8005010D2 /* ColibrioReader */; };
-		3E341A402DA35C47005010D2 /* Eperpus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CB07AC2CA3FAD200163BF8 /* Eperpus.xcdatamodeld */; };
+		3E5CFA7E2DA3B08B00483BE8 /* Eperpus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CFA7C2DA3B08B00483BE8 /* Eperpus.xcdatamodeld */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
@@ -125,6 +125,7 @@
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36252F55F07260E442BEE251 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		3E5CFA7D2DA3B08B00483BE8 /* Eperpus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eperpus.xcdatamodel; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
@@ -200,7 +201,6 @@
 		A8CB07C42CA3FAD200163BF8 /* Extension + TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + TimeInterval.swift"; sourceTree = "<group>"; };
 		A8CB07C52CA3FAD200163BF8 /* Extension + UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIDevice.swift"; sourceTree = "<group>"; };
 		A8CB07C62CA3FAD200163BF8 /* UserShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserShared.swift; sourceTree = "<group>"; };
-		A8CB07C82CA3FAD200163BF8 /* Eperpus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eperpus.xcdatamodel; sourceTree = "<group>"; };
 		A8CB07C92CA3FAD200163BF8 /* PDFReaderConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFReaderConfigurator.swift; sourceTree = "<group>"; };
 		A8CB07CB2CA3FAD200163BF8 /* PDFReaderInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFReaderInteractor.swift; sourceTree = "<group>"; };
 		A8CB07CD2CA3FAD200163BF8 /* PDFReaderPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFReaderPresenter.swift; sourceTree = "<group>"; };
@@ -461,8 +461,8 @@
 		A8CB07AF2CA3FAD200163BF8 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				3E5CFA7C2DA3B08B00483BE8 /* Eperpus.xcdatamodeld */,
 				A8CB07AB2CA3FAD200163BF8 /* DummyReader.swift */,
-				A8CB07AC2CA3FAD200163BF8 /* Eperpus.xcdatamodeld */,
 				A8CB07AD2CA3FAD200163BF8 /* NetworkManager.swift */,
 				A8CB07AE2CA3FAD200163BF8 /* Nyoba.swift */,
 			);
@@ -821,7 +821,7 @@
 				A8CB07D92CA3FAD200163BF8 /* Extension + Alert.swift in Sources */,
 				A8CB08182CA3FAD200163BF8 /* PDFReaderInteractor.swift in Sources */,
 				A8CB07D82CA3FAD200163BF8 /* Extension  + Bundle.swift in Sources */,
-				3E341A402DA35C47005010D2 /* Eperpus.xcdatamodeld in Sources */,
+				3E5CFA7E2DA3B08B00483BE8 /* Eperpus.xcdatamodeld in Sources */,
 				A8CB07E52CA3FAD200163BF8 /* Book+CoreDataProperties.swift in Sources */,
 				A8CB07F52CA3FAD200163BF8 /* ReaderPresenter.swift in Sources */,
 				A8CB08102CA3FAD200163BF8 /* CoredataBrain.swift in Sources */,
@@ -1261,14 +1261,14 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		A8CB07AC2CA3FAD200163BF8 /* Eperpus.xcdatamodeld */ = {
+		3E5CFA7C2DA3B08B00483BE8 /* Eperpus.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A8CB07C82CA3FAD200163BF8 /* Eperpus.xcdatamodel */,
+				3E5CFA7D2DA3B08B00483BE8 /* Eperpus.xcdatamodel */,
 			);
-			currentVersion = A8CB07C82CA3FAD200163BF8 /* Eperpus.xcdatamodel */;
+			currentVersion = 3E5CFA7D2DA3B08B00483BE8 /* Eperpus.xcdatamodel */;
 			name = Eperpus.xcdatamodeld;
-			path = "/Users/dwikigramedia/Documents/GitHub/revamp_eperpus_mobile/ios/Runner/Resources/New Group/Eperpus.xcdatamodeld";
+			path = "/Users/calvin/Dev/projects/fix-revamp-mobile/ios/Runner/Resources/New Group/Eperpus.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

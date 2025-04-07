@@ -1,12 +1,19 @@
 {
   "configurations": [
     {
-			"name": "debug - saas",
+			"name": "debug - android - saas",
 			"toolArgs": ["fvm"],
 			"type": "dart",
 			"request": "launch",
       "program": "lib/main.dart",
       "args": ["--flavor","dev"]
+		}, 
+    {
+			"name": "debug - ios - saas",
+			"toolArgs": ["fvm"],
+			"type": "dart",
+			"request": "launch",
+      "program": "lib/main.dart",
 		},
   ]
 }
