@@ -26,32 +26,28 @@ void main() async {
   runApp(const MyApp());
 }
 
-// testingdikbud5@yopmail.com
 Future<void> initServices() async {
   await Firebase.initializeApp();
   FlavorConfig(
-    flavor: Flavor.kemendikbud,
+    flavor: Flavor.allianz,
     values: FlavorValues(
-      baseUrl: ApiConstant.scoopCoreAPI,
-      baseOrganizationId: organizationIdKemendikbud,
-      baseCatalogId: catalogIdKemendikbud,
-      clientAssets: "assets/client/kemendikbud/",
-      clientId: Platform.isIOS ? 204 : 203,
-      watermark: "EPERPUSDIKBUD",
-      userAgent: Platform.isIOS ? "eperpusdikbud ios" : "eperpusdikbud android",
-      appName: "EPerpusdikbud",
-      appConfigName: "EPerpusdikbud",
-      aboutUsID:
-      "EPerpusdikbud, aplikasi perpustakaan digital milik Kemendikbud RI. Perpustakaan di ujung jarimu. Dimanapun. Kapanpun.",
-      aboutUsEN:
-      "EPerpusdikbud, digital library application by Kemendikbud RI. A library at your fingertips. Anywhere. Anytime.",
-      playstore:
-      "https://play.google.com/store/apps/details?id=com.appsfoundry.eperpuswl.id.kemendikbud.eperpusdikbud",
-      appstore: "",
-      isRegisterShown: true,
-      openRegisPrefix: "dikbud",
-    ),
-    name: 'EPerpusdikbud',
+        baseUrl: ApiConstant.scoopCoreAPI,
+        baseOrganizationId: organizationIdAllianz,
+        baseCatalogId: catalogIdAllianz,
+        clientAssets: "assets/client/allianz/",
+        clientId: Platform.isIOS ? 255 : 254,
+        watermark: "GDBOOKLAB",
+        userAgent: Platform.isIOS ? "book_lab_ios" : "book_lab_android",
+        appName: "Book Lab",
+        appConfigName: "Book Lab",
+        aboutUsID:
+            "Book Lab adalah fasilitas pembelajaran melalui buku, majalah, dan koran digital, dipersembahkan untuk karyawan Allianz Indonesia",
+        aboutUsEN:
+            "Book Lab is learning facility through books, magazines, and digital newspapers dedicated for Allianz Indonesia’s employees.",
+        playstore:
+            "https://play.google.com/store/apps/details?id=com.appsfoundry.eperpuswl.id.allianz",
+        appstore: ""),
+    name: "Book Lab",
   );
   ApiClient(values: FlavorConfig.instance.values);
 }
